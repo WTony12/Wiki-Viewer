@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Wiki Viewer</title>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+  <script src="js/index.js"></script>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+<h1 class="text-center">Wiki Viewer</h1>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="row text-center container-fluid">
+	<div class="col"></div>
+	<div class="col"></div>
+	<div class="col">
+		<!--Logo and input goes here-->
+		<div class="input-group">
+   		<input id="inp" type="text" class="form-control" display="hide">
+   		<span class="input-group-btn">
+        	<button id="closeButt" class="btn btn-secondary" type="button">x</button>
+   		</span>
+		</div>
+		<img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Wikipedia-logo-v2-en.svg/2000px-Wikipedia-logo-v2-en.svg.png" alt="Wiki logo">
+	</div>
+	<div class="col text-right">
+		<!--Random page-->
+		<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><button id="randButt" class="btn btn-secondary" type="button">Random Wiki</button></a>
+	</div>
+	<div class="col"></div>
+</div>
+<br>
+<!--display results-->
+<div class="row">
+	<div id="results" class="col">
+		<!--Data goes here-->
+	</div>
+</div>
+<br>
+<br>
+<br>
+<h4 id="signature" class="text-center">Developed by Tony Wagdi</h4>
+</body>
+</html>
